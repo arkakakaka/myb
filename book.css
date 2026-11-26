@@ -135,8 +135,8 @@ textarea.bk-in{min-height:100px;resize:vertical}
 @keyframes bk-pulse{50%{opacity:.45}}
 
 .bk-foot{margin-top:64px;text-align:center;font-size:13px}
-.bk-foot a{color:var(--muted);text-decoration:none;display:inline-block;padding:10px 6px}
-.bk-foot a b{font-weight:800;color:var(--ink2)}
+.bk-foot a,.bk-foot #made{color:var(--muted);text-decoration:none;display:inline-block;padding:10px 6px}
+.bk-foot a b,.bk-foot #made b{font-weight:800;color:var(--ink2)}
 @media (hover:hover){.bk-foot a:hover{color:var(--ink)}}
 
 @media (prefers-reduced-motion:reduce){
